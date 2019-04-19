@@ -1,0 +1,43 @@
+.images-container {
+  padding-right: 0px;
+}
+
+.image-wrapper {
+  padding: 10px;
+  width: 100%;
+}
+
+.image-wrapper img {
+  max-width: 100%;
+}
+
+.ant-drawer-header {
+  background: #ff7b39 !important;
+  color: white !important;
+  border-radius: 0 !important;
+  border-bottom: none !important;
+}
+.ant-drawer-body {
+  background: #222222 !important;
+  min-height: 98vh;
+  text-align: center;
+}
+
+.ant-drawer-content-wrapper {
+  width: 500px !important;
+}
+
+.ant-btn-primary {
+  background-color: #ff7b39 !important;
+  border-color: #ff7b39 !important;
+}
+
+.unsplash-container {
+  font-family: "Poppins";
+}
+
+@media only screen and (max-width: 975px) {
+  .ant-drawer-content-wrapper {
+    width: 256px !important;
+  }
+}

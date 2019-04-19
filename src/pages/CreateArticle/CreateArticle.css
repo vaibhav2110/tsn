@@ -1,0 +1,17 @@
+.create-article-container {
+  background-color: #181818;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.text-editor-wrapper {
+  padding: 150px 250px 50px 250px;
+  width: 100%;
+  position: relative;
+}
+
+@media only screen and (max-width: 975px) {
+  .text-editor-wrapper{
+    padding: 80px 30px;;
+  }
+}

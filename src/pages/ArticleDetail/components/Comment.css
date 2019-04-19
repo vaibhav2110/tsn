@@ -1,0 +1,111 @@
+.comment-container {
+  border-left: 2px solid #ef5230;
+  border-radius: 4px;
+  padding: 15px;
+  position: relative;
+  background: #181818;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
+}
+
+.comment-author {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.comment-author i {
+  font-size: 1em;
+  position: absolute;
+  right: 10px;
+}
+
+.comment-author-info {
+  margin-left: 10px;
+  font-family: "Poppins";
+  color: white;
+}
+
+.comment-author-info p {
+  margin: 0;
+  font-size: 0.7em;
+}
+
+.comment-author-info .date {
+  font-size: 0.6em;
+  opacity: 0.8;
+}
+
+.comment-author-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #ef5230;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.comment-author-avatar img {
+  position: absolute;
+  object-fit:cover;
+  max-width: 100%;
+  min-height: 100%;
+}
+
+.comment-body p {
+  font-size: 0.9em;
+  padding: 10px 0 10px 0;
+  margin-bottom: 0;
+}
+
+.comment-stats {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  transform: translate(0, 50%);
+  display: flex;
+  background: #222222;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
+  font-size: 0.9em;
+}
+
+.comment-stats .likes,
+.comment-stats .dislikes {
+  display: flex;
+  cursor: pointer;
+}
+
+.comment-stats .likes {
+  padding-right: 15px;
+}
+
+.comment-stats p {
+  margin: 0;
+  font-size: 0.8em;
+  padding-left: 3px;
+  padding-top: 3px;
+  color: #f8b721;
+}
+
+.comment-edit-textarea{
+  margin: 0 !important;
+  width: 120% !important;
+}
+
+.comment-edit-buttons {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.comment-edit-buttons .btn {
+  margin: 0;
+  font-size: 10px !important;
+  width: auto;
+  height: 25px;
+  margin-left: 10px;
+}
